@@ -11,5 +11,5 @@ This app was mostly made as a joke for my friends. It just reaches out to https:
 
 ## Useful Information
 
-- [Latest Release](https://codeberg.org/melvinquick/psswd_box/releases/latest)
-- [Releases](https://codeberg.org/melvinquick/psswd_box/releases)
+- [Latest Release](https://codeberg.org/melvinquick/read_only_friday_checker/releases/latest)
+- [Releases](https://codeberg.org/melvinquick/read_only_friday_checker/releases)
