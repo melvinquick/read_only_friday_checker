@@ -57,7 +57,7 @@ class ReadOnlyFridayChecker(QMainWindow):
         (
             self.rof_check.setText("Yes! \nDon't change anything!")
             if rof.get_response().json()["readonly"] == True
-            else self.rof_check.setText("Nope. \nChange Away!")
+            else self.rof_check.setText("Nope. \nChange away!")
         )
 
     def apply_theme(self):
