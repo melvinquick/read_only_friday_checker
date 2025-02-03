@@ -12,11 +12,10 @@ author_email = "melvinquick@proton.me"
 formal_name = "Read Only Friday Checker"
 description = "This checks to see if today is Read Only Friday."
 long_description = "This was mostly made in jest for my friend group. It's just a one button GUI that puts an API call out to https://isitreadonlyfriday.com."
-icon = "src/readonlyfridaychecker/resources/images/read_only_friday_checker"
 sources = ["src/readonlyfridaychecker"]
 test_sources = ["tests"]
 
-requires = ["PySide6-Essentials"]
+requires = ["pyside6-essentials", "requests"]
 test_requires = ["pytest"]
 
 [tool.briefcase.app.readonlyfridaychecker.macOS]
