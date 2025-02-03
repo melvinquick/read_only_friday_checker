@@ -31,9 +31,7 @@ class ReadOnlyFridayChecker(QMainWindow):
         self.setFixedSize(300, 150)
 
         # * Create widgets
-        self.rof_check = QPushButton(
-            "Is it read-only Friday? \n\nPress me to find out!"
-        )
+        self.rof_check = QPushButton("Is it read-only Friday? \nPress me to find out!")
         self.rof_check.setFixedSize(280, 130)
         self.rof_check.setFont(self.set_font())
 
