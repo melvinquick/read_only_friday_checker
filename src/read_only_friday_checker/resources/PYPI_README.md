@@ -1,5 +1,3 @@
-<p align="center"> <img src="src/read_only_friday_checker/resources/images/read_only_friday_checker-256.png" /> </p>
-
 ## Donations
 
 - [Buy Me A Coffee](https://www.buymeacoffee.com/KingKairos)

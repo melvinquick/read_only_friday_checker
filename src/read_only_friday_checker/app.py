@@ -2,7 +2,6 @@
 This checks to see if today is Read Only Friday.
 """
 
-import importlib.metadata
 import sys
 
 from PySide6.QtCore import Qt
@@ -15,7 +14,7 @@ from PySide6.QtWidgets import (
     QVBoxLayout,
 )
 
-from readonlyfridaychecker.rof_api_checker import RofApiChecker
+from .rof_api_checker import RofApiChecker
 
 
 class ReadOnlyFridayChecker(QMainWindow):
@@ -36,13 +35,13 @@ class ReadOnlyFridayChecker(QMainWindow):
         self.rof_check.setFont(self.set_font())
 
         # * Create layout
-        self.page = QVBoxLayout()
-        self.page.addWidget(self.rof_check)
+        page = QVBoxLayout()
+        page.addWidget(self.rof_check)
 
-        self.gui = QWidget()
-        self.gui.setLayout(self.page)
+        gui = QWidget()
+        gui.setLayout(page)
 
-        self.setCentralWidget(self.gui)
+        self.setCentralWidget(gui)
 
         # * Define connections
         self.rof_check.pressed.connect(self.check_rof)
@@ -79,22 +78,10 @@ class ReadOnlyFridayChecker(QMainWindow):
 
 
 def main():
-    # Linux desktop environments use an app's .desktop file to integrate the app
-    # in to their application menus. The .desktop file of this app will include
-    # the StartupWMClass key, set to app's formal name. This helps associate the
-    # app's windows to its menu item.
-    #
-    # For association to work, any windows of the app must have WMCLASS property
-    # set to match the value set in app's desktop file. For PySide6, this is set
-    # with setApplicationName().
-
-    # Find the name of the module that was used to start the app
-    app_module = sys.modules["__main__"].__package__
-    # Retrieve the app's metadata
-    metadata = importlib.metadata.metadata(app_module)
-
-    QApplication.setApplicationName(metadata["Formal-Name"])
-
     app = QApplication(sys.argv)
-    main_window = ReadOnlyFridayChecker()
+    main_window = ReadOnlyFridayChecker()  # noqa: F841
     sys.exit(app.exec())
+
+
+if __name__ == "__main__":
+    main()
