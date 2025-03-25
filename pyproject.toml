@@ -12,7 +12,7 @@ dependencies = ["pyside6>=6.8.2.1", "requests>=2.32.3"]
 repository = "https://codeberg.org/melvinquick/read_only_friday_checker"
 issues = "https://codeberg.org/melvinquick/read_only_friday_checker/issues"
 
-[project.scripts]
+[project.gui-scripts]
 read-only-friday-checker = "read_only_friday_checker.app:main"
 
 [build-system]
