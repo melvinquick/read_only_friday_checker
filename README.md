@@ -16,5 +16,5 @@ Uninstall: `curl -s https://codeberg.org/melvinquick/read_only_friday_checker/ra
 
 ## Useful Information
 
-- [Latest Release](https://codeberg.org/melvinquick/read_only_friday_checker/releases/latest)
-- [Releases](https://codeberg.org/melvinquick/read_only_friday_checker/releases)
+- [Project Goals](https://codeberg.org/melvinquick/read_only_friday_checker/projects/14093)
+- [Latest Releases](https://pypi.org/project/read_only_friday_checker/)
