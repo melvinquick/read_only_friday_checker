@@ -81,7 +81,7 @@ def create_desktop_file(icon, version, python, app):
     [Desktop Entry]
     Version={version}
     Type=Application
-    Name=Psswd Box
+    Name=Read Only Friday Checker
     Comment=This checks to see if today is Read Only Friday.
     Exec={python} {app}
     Icon={icon}
@@ -103,7 +103,7 @@ def install():
     venv_path = get_venv_path()
     create_venv(venv_path)
     install_app(venv_path)
-    version = "1.0.1"
+    version = "1.0.2"
     icon = get_icon(venv_path)
     python = get_python_path(venv_path)
     app = get_app_path(venv_path)

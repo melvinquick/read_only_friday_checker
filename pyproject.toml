@@ -1,6 +1,6 @@
 [project]
 name = "read_only_friday_checker"
-version = "1.0.1"
+version = "1.0.2"
 description = "This checks to see if today is Read Only Friday."
 readme = "src/read_only_friday_checker/resources/PYPI_README.md"
 license = "MIT"
