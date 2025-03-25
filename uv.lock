@@ -194,7 +194,7 @@ wheels = [
 
 [[package]]
 name = "read-only-friday-checker"
-version = "1.0.1"
+version = "1.0.2"
 source = { editable = "." }
 dependencies = [
     { name = "pyside6" },
