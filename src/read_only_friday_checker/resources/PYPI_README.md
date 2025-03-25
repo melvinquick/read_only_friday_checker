@@ -1,7 +1,7 @@
 ## Donations
 
-- [Buy Me A Coffee](https://www.buymeacoffee.com/KingKairos)
-- [GitHub Sponsors](https://github.com/sponsors/melvinquick)
+[Buy Me A Coffee](https://www.buymeacoffee.com/KingKairos)  
+[GitHub Sponsors](https://github.com/sponsors/melvinquick)
 
 ## Purpose
 
@@ -14,5 +14,5 @@ Uninstall: `curl -s https://codeberg.org/melvinquick/read_only_friday_checker/ra
 
 ## Useful Information
 
-- [Project Goals](https://codeberg.org/melvinquick/read_only_friday_checker/projects/14093)
-- [Latest Releases](https://pypi.org/project/read_only_friday_checker/)
+[Project Goals](https://codeberg.org/melvinquick/read_only_friday_checker/projects/14093)  
+[Latest Releases](https://pypi.org/project/read_only_friday_checker/)
