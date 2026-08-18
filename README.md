@@ -16,5 +16,5 @@ Uninstall: `curl -s https://github.com/melvinquick/read_only_friday_checker/raw/
 
 ## Useful Information
 
-[Project Goals](https://github.com/melvinquick/read_only_friday_checker/projects/14093)  
+[Project](https://github.com/users/melvinquick/projects/12)  
 [Latest Releases](https://pypi.org/project/read_only_friday_checker/)
