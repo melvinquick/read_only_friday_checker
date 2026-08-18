@@ -9,8 +9,8 @@ requires-python = ">=3.10"
 dependencies = ["pyside6>=6.8.2.1", "requests>=2.32.3"]
 
 [project.urls]
-repository = "https://codeberg.org/melvinquick/read_only_friday_checker"
-issues = "https://codeberg.org/melvinquick/read_only_friday_checker/issues"
+repository = "https://github.com/melvinquick/read_only_friday_checker"
+issues = "https://github.com/melvinquick/read_only_friday_checker/issues"
 
 [project.gui-scripts]
 read-only-friday-checker = "read_only_friday_checker.app:main"

@@ -11,10 +11,10 @@ This app was mostly made as a joke for my friends. It just reaches out to https:
 
 ## Install/Uninstall
 
-Install: `curl -s https://codeberg.org/melvinquick/read_only_friday_checker/raw/branch/main/install.py | python3 -`  
-Uninstall: `curl -s https://codeberg.org/melvinquick/read_only_friday_checker/raw/branch/main/uninstall.py | python3 -`
+Install: `curl -s https://github.com/melvinquick/read_only_friday_checker/raw/branch/main/install.py | python3 -`  
+Uninstall: `curl -s https://github.com/melvinquick/read_only_friday_checker/raw/branch/main/uninstall.py | python3 -`
 
 ## Useful Information
 
-[Project Goals](https://codeberg.org/melvinquick/read_only_friday_checker/projects/14093)  
+[Project Goals](https://github.com/melvinquick/read_only_friday_checker/projects/14093)  
 [Latest Releases](https://pypi.org/project/read_only_friday_checker/)
